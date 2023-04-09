@@ -18,12 +18,12 @@ else:
 
 q = 1
 while True:
-    print("Welcome to DIL Bank")
+    print("Welcome to reserve Bank")
     q = input("Press 1 to continue 0 to exit")
 
     if q == "0":
         pickle.dump(atm, open("atm.pkl", "wb"))
-        print("Thank you for using DIL Bank")
+        print("Thank you for using reserve Bank")
         break
     user = input("Enter user name : ")
     password = input("Enter your password : ")
